@@ -65,6 +65,7 @@
  *   in different view modes.
  */
 #}
+
 {%
   set classes = [
     node.bundle|clean_class,
@@ -75,6 +76,7 @@
     'clearfix',
   ]
 %}
+
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
